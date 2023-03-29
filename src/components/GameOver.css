@@ -1,0 +1,22 @@
+h2 span {
+  color: #fffb00;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 690px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h2 span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 580px) { 
+
+}
