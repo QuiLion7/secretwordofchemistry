@@ -45,6 +45,7 @@ const Game = ({ verifyLetter, chosenCategory, chosenWord, lettersChosenWord, cha
               name='letter' 
               maxLength='1' 
               required 
+              autoFocus
               onChange={event => setLetter(event.target.value)} 
               value={letter}
               ref={inputLetterRef}
