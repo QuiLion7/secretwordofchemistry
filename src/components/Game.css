@@ -1,5 +1,10 @@
 .game h1 {
+  margin: 10px 0 ;
   text-transform: uppercase;
+}
+
+.category, .points, .attempts {
+  margin: 5px 0;
 }
 .category span, .points span {
   color: #fffb00;
@@ -12,6 +17,7 @@
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .attempts span {
@@ -50,6 +56,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px 0;
+}
+
+.letterContainer p {
+  margin: 10px 0;
 }
 
 form {
@@ -200,7 +211,7 @@ form {
     width: 25px;
   }
   .wordContainer {
-    margin: 0.7rem;
+    margin: 0.5rem;
     padding: 0.7rem;
   }
 }
